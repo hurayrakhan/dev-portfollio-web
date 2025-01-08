@@ -13,22 +13,67 @@
 
 /* nav styles */
 nav{
-    display:flex
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-title{
     font-weight: 800px;
-    font-size: 45px;
+    font-size: 50px;
 }
 .text-1{
     color: #FD6E0A;
 
 }
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
 nav ul li a{
     list-style: none;
     text-decoration: none;
+    margin-right: 50px;
 
 }
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    border-radius: 5px;
+    padding: 14px 35px;
+    border: none;
+}
+
 .dark-2{color: #474747;}
+
+/* banner style */
+
+.banner-content{
+    max-width: 600px;
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-h1{
+    font-weight: 600px;
+    font-size: 40px;
+
+        
+}
+.banner-h2{
+    font-weight: 800px;
+    font-size: 60px;
+    
+
+}
+.banner-description{
+
+}
 
 
 
