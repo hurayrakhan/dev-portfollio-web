@@ -147,5 +147,42 @@ main section{
 
 .resume-container{
     display: flex;
+    gap: 20px;
+}
+.resume-title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.experience-description, .experience-subtitle{
+    color: #474747;
+}
+.btn-download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+hr{
+    margin: 20px 10px;
 }
 
+/* footer style */
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"],
+footer textarea{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 24px;
+    border: none;
+
+
+}
