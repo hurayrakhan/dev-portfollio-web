@@ -8,7 +8,10 @@
       "wdth" 100;
       margin-top: 0px;
   }
-
+  
+  body{
+    margin: 0px;
+  }
 
 /* header styles */
 
@@ -165,7 +168,7 @@ hr{
 }
 
 /* footer style */
-footer{
+.footer-content{
     display: flex;
     gap: 100px;
     padding: 130px 230px;
@@ -186,4 +189,8 @@ footer textarea{
     font-size: 20px;
 
 
+}
+.f-foot{
+    padding-bottom: 50px;
+    text-align: center;
 }
